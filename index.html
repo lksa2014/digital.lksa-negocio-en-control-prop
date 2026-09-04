@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Negocio en Control PRO | LKSA Digital</title>
+  <meta name="description" content="Sistema completo de gestión en Excel con formularios, facturación con pagos mixtos, control de inventario y dashboard ejecutivo.">
+  <meta name="theme-color" content="#163A5F">
+  <meta property="og:title" content="Negocio en Control PRO">
+  <meta property="og:description" content="Sistema de gestión con formularios, facturación y dashboard ejecutivo para negocios en crecimiento.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/portada.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .pro-tag{background:#0E2438;color:#E5B958}
+    .module-visual{padding:28px;display:flex;flex-direction:column;gap:10px}
+    .module-visual .mv-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    .module-visual .mv-item{background:#F4F8FB;border:1px solid var(--border);border-radius:12px;padding:14px 10px;text-align:center;font-weight:700;color:var(--navy);font-size:14px}
+    .compare{width:100%;border-collapse:collapse;margin-top:8px}
+    .compare th,.compare td{padding:14px 16px;text-align:left;border-bottom:1px solid var(--border);font-size:15px}
+    .compare th{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
+    .compare td.pro-col{color:var(--navy);font-weight:700}
+    .macro-note{background:#fff8e5;border-left:4px solid var(--gold);padding:16px 18px;border-radius:8px;color:#6b5700;margin-top:22px}
+    .crosslink{background:var(--bg);border:1px solid var(--border);border-radius:14px;padding:18px 22px;margin-top:26px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    .crosslink span{color:#475467;font-size:15px}
+    .crosslink a{font-weight:800;color:var(--blue)}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#inicio"><span class="brand-mark">LKSA</span><span>Digital</span></a>
+      <nav>
+        <a href="#incluye">Qué incluye</a>
+        <a href="#funciones">Funciones</a>
+        <a href="#diferencias">Capacidades PRO</a>
+        <a href="#faq">Preguntas</a>
+      </nav>
+      <a class="btn btn-small" href="#comprar">Comprar por $30</a>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Producto digital · Versión PRO</span>
+          <h1>Tu negocio, en un sistema de verdad.</h1>
+          <p class="lead">Clientes, proveedores, productos, facturación con pagos mixtos, compras, gastos y un dashboard ejecutivo — todo conectado, con formularios en vez de celdas sueltas.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#comprar">Quiero Negocio en Control PRO</a>
+            <a class="btn btn-secondary" href="#incluye">Ver qué incluye</a>
+          </div>
+          <div class="trust-row">
+            <span>✓ Descarga digital</span>
+            <span>✓ Manual PRO incluido</span>
+            <span>✓ Bono de IA</span>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="assets/portada.png" alt="Negocio en Control PRO">
+        </div>
+      </div>
+    </section>
+
+    <section class="problem">
+      <div class="container narrow center">
+        <span class="eyebrow">El problema</span>
+        <h2>Tu negocio creció. Tu hoja de Excel, no.</h2>
+        <p>Cuando empiezas, una hoja de ventas alcanza. Pero en cuanto manejas inventario real, clientes que pagan en partes, proveedores y varias personas anotando datos, una sola hoja se vuelve frágil: se dañan fórmulas, se duplican números, nadie sabe quién debe qué.</p>
+      </div>
+    </section>
+           <section class="solution">
+      <div class="container two-col">
+        <div>
+          <span class="eyebrow">La solución</span>
+          <h2>Un sistema relacional real, sin salir de Excel.</h2>
+          <p>Negocio en Control PRO organiza tu operación en tablas conectadas — como una base de datos — y las opera a través de formularios protegidos, para que nadie edite lo que no debe.</p>
+          <ul class="check-list">
+            <li>Formularios con buscador para cada módulo, no captura manual.</li>
+            <li>Facturas con pagos mixtos o parciales y saldo pendiente automático.</li>
+            <li>El inventario se descuenta solo con cada venta y sube solo con cada compra.</li>
+            <li>Genera el PDF de cualquier factura con un clic — y lo envía por WhatsApp o correo.</li>
+            <li>Dashboard ejecutivo con selector de mes/año y control de cuentas por cobrar.</li>
+            <li>Centro de reportes: 7 reportes en PDF listos para descargar.</li>
+            <li>Cierre de caja diario, con sobrante y faltante calculados automáticamente.</li>
+          </ul>
+        </div>
+        <div class="card module-visual">
+          <div class="mv-row">
+            <div class="mv-item">Clientes</div>
+            <div class="mv-item">Proveedores</div>
+            <div class="mv-item">Productos</div>
+          </div>
+          <div class="mv-row">
+            <div class="mv-item">Facturación</div>
+            <div class="mv-item">Compras</div>
+            <div class="mv-item">Gastos</div>
+          </div>
+          <div class="mv-row">
+            <div class="mv-item">Factura PDF</div>
+            <div class="mv-item">Dashboard</div>
+            <div class="mv-item">Multimoneda</div>
+          </div>
+          <div class="mv-row">
+            <div class="mv-item">Reportes PDF</div>
+            <div class="mv-item">WhatsApp y correo</div>
+            <div class="mv-item">Cierre de caja</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="incluye" class="included">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">Todo incluido</span>
+          <h2>Lo que recibes con tu compra</h2>
+        </div>
+        <div class="cards three">
+          <article class="card feature">
+            <div class="icon">🗂️</div>
+            <h3>Excel PRO con macros</h3>
+            <p>Sistema relacional completo: 9 formularios, hojas protegidas, facturación con pagos mixtos y factura en PDF.</p>
+          </article>
+          <article class="card feature">
+            <div class="icon">📘</div>
+            <h3>Manual PRO paso a paso</h3>
+            <p>Cómo habilitar las macros y usar cada módulo, en español, sin necesidad de saber programar.</p>
+          </article>
+          <article class="card feature">
+            <div class="icon">✨</div>
+            <h3>Bono: 20 prompts de IA</h3>
+            <p>Prompts prácticos de ventas, marketing y análisis para aprovechar mejor tus datos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="funciones" class="functions">
+               
+      
+      
+      
+      
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Funciones principales</span>
+          <h2>Módulos conectados entre sí, de punta a punta.</h2>
+        </div>
+        <div class="feature-grid">
+          <div class="mini-card"><strong>Clientes</strong><span>Búsqueda y registro con historial.</span></div>
+          <div class="mini-card"><strong>Proveedores</strong><span>Origen de productos y compras.</span></div>
+          <div class="mini-card"><strong>Productos</strong><span>Precio, costo y stock mínimo.</span></div>
+          <div class="mini-card"><strong>Nueva Factura</strong><span>Búsqueda dinámica y pagos mixtos.</span></div>
+          <div class="mini-card"><strong>Registrar Compra</strong><span>Reabastece el inventario solo.</span></div>
+          <div class="mini-card"><strong>Gastos</strong><span>Categorías y método de pago.</span></div>
+          <div class="mini-card"><strong>Imprimir Factura</strong><span>Genera el PDF con un clic.</span></div>
+          <div class="mini-card"><strong>WhatsApp y correo</strong><span>Envía la factura ya redactada.</span></div>
+          <div class="mini-card"><strong>Dashboard</strong><span>Indicadores en vivo por mes o año.</span></div>
+          <div class="mini-card"><strong>Cuentas por cobrar</strong><span>Saldo vencido y antigüedad de deuda.</span></div>
+          <div class="mini-card"><strong>Centro de reportes</strong><span>7 reportes exportables a PDF.</span></div>
+          <div class="mini-card"><strong>Cierre de caja</strong><span>Detecta sobrante y faltante del día.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="diferencias" class="audience">
+      <div class="container narrow">
+        <div class="section-head center">
+          <span class="eyebrow">Capacidades PRO</span>
+          <h2>Un sistema completo para operar con control.</h2>
+        </div>
+        <table class="compare">
+          <tr><th>Módulo</th><th>Capacidad PRO</th></tr>
+          <tr><td>Captura de datos</td><td class="pro-col">Formularios protegidos con buscador</td></tr>
+          <tr><td>Ventas</td><td class="pro-col">Clientes, facturas, detalle y pagos conectados</td></tr>
+          <tr><td>Pagos</td><td class="pro-col">Pagos mixtos o parciales con saldo pendiente automático</td></tr>
+          <tr><td>Compras</td><td class="pro-col">Proveedores y compras con historial</td></tr>
+          <tr><td>Facturación</td><td class="pro-col">PDF de cada factura, con envío directo por WhatsApp o correo</td></tr>
+          <tr><td>Indicadores</td><td class="pro-col">Dashboard con selector de mes/año y control de cuentas por cobrar</td></tr>
+          <tr><td>Reportes</td><td class="pro-col">Centro de reportes: 7 reportes listos en PDF</td></tr>
+          <tr><td>Caja</td><td class="pro-col">Cierre diario con sobrante/faltante automático</td></tr>
+          <tr><td>Requisito técnico</td><td class="pro-col">Macros habilitadas en Excel de escritorio</td></tr>
+        </table>
+        <div class="macro-note">Este producto usa macros de Excel — se habilitan una sola vez, con instrucciones incluidas en el manual. No funciona en Excel Online ni en la app móvil.</div>
+      </div>
+    </section>
+
+    <section id="comprar" class="pricing">
+      <div class="container">
+        <div class="price-card">
+          <span class="eyebrow light">Versión PRO</span>
+          <h2>Negocio en Control PRO</h2>
+          <div class="price">$30 <span>USD</span></div>
+          <ul>
+            <li>Excel PRO con macros y 9 formularios</li>
+            <li>Manual de usuario PRO</li>
+            <li>Bono: 20 Prompts de IA</li>
+            <li>Descarga digital</li>
+          </ul>
+          <a class="btn btn-gold" id="checkoutButton" href="#" data-checkout-url="PON_AQUI_TU_URL_DE_HOTMART">Comprar ahora por $30</a>
+          <small>El pago se procesará de forma segura en la plataforma de checkout.</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="guarantee">
+      <div class="container narrow center">
+        <span class="eyebrow">Compra con claridad</span>
+        <h2>Garantía de acceso y funcionamiento</h2>
+        <p>Si el archivo entregado presenta un problema técnico que impida su utilización y no puede resolverse, la solicitud se gestionará conforme a las condiciones de la plataforma de pago utilizada.</p>
+      </div>
+    </section>
+
+    <section id="faq" class="faq">
+      <div class="container narrow">
+        <div class="section-head center">
+          <span class="eyebrow">Preguntas frecuentes</span>
+          <h2>Antes de comprar</h2>
+        </div>
+        <details open>
+          <summary>¿Necesito habilitar macros?</summary>
+          <p>Sí, es un paso obligatorio la primera vez que abres el archivo. El manual incluye las instrucciones exactas, paso a paso.</p>
+        </details>
+        <details>
+          <summary>¿Funciona en Mac, Excel Online o en el celular?</summary>
+          <p>Funciona de forma confiable en Excel de escritorio para Windows. En Mac funciona, pero los formularios pueden verse distinto. No funciona en Excel Online ni en la app móvil — esas versiones no ejecutan macros.</p>
+        </details>
+        <details>
+          <summary>¿Qué incluye la versión PRO?</summary>
+          <p>Incluye formularios, facturación con pagos mixtos, control de proveedores y compras, factura en PDF, dashboard, reportes exportables, cierre de caja y protección de las hojas de datos.</p>
+        </details>
+        <details>
+          <summary>¿Necesito saber de macros o programación?</summary>
+          <p>No. Solo necesitas habilitarlas una vez (instrucciones incluidas). El resto del sistema se usa con clics, igual que cualquier programa.</p>
+        </details>
+        <details>
+          <summary>¿Puedo usarlo para mi negocio?</summary>
+          <p>Sí. La licencia permite utilizarlo y adaptarlo para tus actividades comerciales internas. No permite revender o redistribuir el producto como propio.</p>
+        </details>
+        <details>
+          <summary>¿Cómo envío una factura por WhatsApp o correo?</summary>
+          <p>Desde el mismo formulario de Imprimir Factura, con un botón para cada uno. WhatsApp abre un mensaje ya redactado con los datos de la factura, listo para que lo confirmes y envíes. El correo abre un borrador con la factura en PDF ya adjunta (usa Outlook si está instalado, o tu cliente de correo predeterminado).</p>
+        </details>
+        <details>
+          <summary>¿El sistema hace respaldos por mi cuenta?</summary>
+          <p>Sí. Cada vez que cierras el archivo se guarda automáticamente una copia de seguridad, y también puedes generar una manualmente con un botón. Se conservan las más recientes y se van descartando las antiguas para no llenar tu disco.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container center">
+        <h2>Deja de perseguir números en varias hojas.</h2>
+        <p>Un sistema, con formularios, que hace el trabajo pesado por ti.</p>
+        <a class="btn btn-primary" href="#comprar">Obtener Negocio en Control PRO</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><strong>LKSA Digital</strong><p>Herramientas digitales prácticas para negocios.</p></div>
+      <div class="footer-links"><a href="#incluye">Qué incluye</a><a href="#faq">Preguntas frecuentes</a><a href="#comprar">Comprar</a></div>
+    </div>
+    <div class="container copyright">© <span id="year"></span> LKSA Digital. Todos los derechos reservados.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
